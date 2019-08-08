@@ -1,5 +1,5 @@
 
-.web-apps #skills {
+.websites #skills {
 
   .description ul li {
 
@@ -8,20 +8,19 @@
     }
 
     &:nth-child(1) span {
-      color: #8e714e;
-    }
-
-    &:nth-child(2) span {
-      color: #222222;
-    }
-
-    &:nth-child(3) span {
       color: #00d8ff;
     }
 
+    &:nth-child(2) span {
+      color: #744c9e;
+    }
+
+    &:nth-child(3) span {
+      color: #cd6799;
+    }
+
     &:nth-child(4) span {
-      color: #539e43;
+      color: #46a1be;
     }
   }
 }
-
