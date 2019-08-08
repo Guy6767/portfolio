@@ -3,9 +3,11 @@ import Layout from '../components/Layout';
 
 const Websites = () => {
   return (
-    <Layout>
+    <div id="page">
+      <Layout>
       <h1>websites</h1>
-    </Layout>
+      </Layout>
+    </div>
   );
 };
 

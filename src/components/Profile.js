@@ -5,7 +5,6 @@ import FacebookIcon from '../assets/svg/facebook.svg';
 import GithubIcon from '../assets/svg/github.svg';
 import EmailIcon from '../assets/svg/email.svg';
 
-
 const Profile = () => {
 
   const changePrimaryColor = () => {
@@ -24,7 +23,7 @@ const Profile = () => {
         <p>
           I love programming, learning and developing for the web. 
           I develop <strong>static websites</strong> as well as <strong>web apps</strong>.
-          For that I use the <strong>latest</strong> technologies, 
+          I always use the <strong>latest</strong> technologies, 
           such as React, GatsbyJS, NodeJS, MongoDB, Express, Sass, ES6 and more.
         </p>
         <div className="social-profiles">

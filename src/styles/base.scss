@@ -1,14 +1,35 @@
 
-@import '../pages/index.scss';
-@import '../components/layout.scss';
-@import '../components/navbar.scss';
-@import '../components/profile.scss';
-
-@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
-
 :root {
   --light: white;
   --primary: #1CB0F6;
+}
+
+#page {
+  padding: 0 40px;
+  display: flex;
+  justify-content: center; 
+}
+
+ @mixin introduction-card {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+  background: var(--light);
+ }
+
+ @mixin center-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+.background-color {
+  height: 352.5px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background: var(--primary);
 }
 
 html {
@@ -16,14 +37,3 @@ html {
   height: 100%;
 }
 
-body {
-  margin: 0;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-::-webkit-scrollbar { display: none !important }
-* :focus { outline: 0 }

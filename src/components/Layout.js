@@ -5,8 +5,8 @@ const Layout = props => {
   return (
     <div id="layout">
       <Navbar />
-        {props.children}
-    </div>
+      {props.children}
+    </div>      
   );
 };
 
