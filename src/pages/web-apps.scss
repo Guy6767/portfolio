@@ -1,0 +1,25 @@
+
+.web-apps #skills {
+
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logos svg, .logos circle, .logos span {
+    padding: 15px;
+    width: 42%;
+  }
+
+  .logos svg:nth-child(1) .st0 {
+      fill: #00D8FF;
+  }
+
+  .logos span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    @include center-vertically;
+  }
+}
+
