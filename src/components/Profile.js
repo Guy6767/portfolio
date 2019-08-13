@@ -1,7 +1,6 @@
 import React from 'react';
 import profilePicture from '../assets/img/profile.jpg';
 import FiverrIcon from '../assets/svg/fiverr.svg';
-import FacebookIcon from '../assets/svg/facebook.svg';
 import GithubIcon from '../assets/svg/github.svg';
 import EmailIcon from '../assets/svg/email.svg';
 
@@ -27,9 +26,8 @@ const Profile = () => {
           such as React, GatsbyJS, NodeJS, MongoDB, Express, Sass, ES6 and more.
         </p>
         <div className="social-profiles">
-          <a><FiverrIcon /></a>
-          <a><GithubIcon /></a>
-          <a><FacebookIcon /></a>
+          <a href="https://www.fiverr.com/guy_arieli" target="_blank"><FiverrIcon /></a>
+          <a href="https://github.com/Guy6767" target="_blank"><GithubIcon /></a>
           <a href="mailto: guyarieli1997@gmail.com"><EmailIcon /></a>
           <cite>Icons made and published by Abhishek Pipalva on 'https://www.iconfinder.com/abhishekpipalva' and licenced under "Creative Commons (Attribution-Share Alike 3.0 Unported)".</cite>
         </div>

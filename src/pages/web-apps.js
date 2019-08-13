@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Skills from '../components/Skills';
-import WebAppsGallery from '../components/WebAppsGallery';
 
 const WebApps = () => {
   return (
